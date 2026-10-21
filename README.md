@@ -1,6 +1,6 @@
 # ¡Hola! Soy Stiven 👋
 
-**Estudiante de Desarrollo de Software** · San Gil, Colombia 🇨🇴
+**Estudiante de Ingenieria de Sistemas** · San Gil, Colombia
 
 Me interesa crear aplicaciones web funcionales, entender cómo se conectan el frontend, el backend y las bases de datos, y seguir mejorando mis habilidades mediante proyectos reales.
 
