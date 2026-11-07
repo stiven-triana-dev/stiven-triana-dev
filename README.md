@@ -48,6 +48,6 @@ Tienda con catálogo dinámico, búsqueda, carrito, tallas, registro e inicio de
 
 ### 📫 Contacto
 
-- **LinkedIn:** [---]
-- **Correo:** [stivenxtriana.dev@gmail.com]
+- **LinkedIn:** ---
+- **Correo:** stivenxtriana.dev@gmail.com
 - **GitHub:** [@stiven-triana-dev](https://github.com/stiven-triana-dev)
