@@ -1,60 +1,53 @@
 # ¡Hola! Soy Stiven 👋
 
-**Estudiante de Ingenieria de Sistemas** · San Gil, Colombia
+**Estudiante de Ingeniería de Sistemas** · San Gil, Colombia
 
-Me interesa crear aplicaciones web funcionales, entender cómo se conectan el frontend, el backend y las bases de datos, y seguir mejorando mis habilidades mediante proyectos reales.
+Busco mi primera oportunidad como desarrollador junior (backend / full stack). Me interesa construir aplicaciones completas, entender cómo se conectan el frontend, el backend y la base de datos, y escribir código que se pueda probar y mantener.
 
-Actualmente desarrollo mi portafolio y documento el proceso de aprendizaje detrás de cada proyecto.
+---
+
+### ✦ Proyectos 
+
+#### 🎓 [UniGest — Sistema de gestión académica](https://github.com/stiven-triana-dev/UniGest)
+
+Aplicación web con tres espacios de trabajo (administración, docencia y estudiantes) para gestionar matrículas, grupos, evaluaciones, calificaciones y boletines.
+
+- **Seguridad:** Spring Security, roles, BCrypt y protección CSRF
+- **Calidad:** 92 pruebas automatizadas y CI con GitHub Actions
+- **Base de datos:** PostgreSQL con migraciones Flyway
+
+**Tecnologías:** Java 21 · Spring Boot · Spring Data JPA · PostgreSQL · JUnit · Maven
+
+[💻 Ver el código](https://github.com/stiven-triana-dev/UniGest)
+
+#### 🛍️ [VisagShop — Tienda virtual de ropa](https://visagshop.onrender.com)
+
+Tienda con catálogo dinámico, búsqueda, carrito, tallas, registro e inicio de sesión, perfil y administración de productos.
+
+**Tecnologías:** Node.js · Express · EJS · PostgreSQL · Render
+
+[🌐 Ver la tienda](https://visagshop.onrender.com) · [💻 Ver el código](https://github.com/stiven-triana-dev/VisagShop)
+
+> VisagShop es un proyecto de aprendizaje: los pagos no procesan transacciones reales. La demo puede tardar unos segundos en cargar.
 
 ---
 
 ### 🛠️ Tecnologías
 
-**Desarrollo web**  
-![HTML5](https://img.shields.io/badge/HTML5-222222?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-222222?style=flat-square&logo=css&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-222222?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Node.js](https://img.shields.io/badge/Node.js-222222?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-222222?style=flat-square&logo=express&logoColor=FFFFFF)
-![EJS](https://img.shields.io/badge/EJS-222222?style=flat-square&logo=ejs&logoColor=A91E50)
-
-**Bases de datos y herramientas**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-222222?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Git](https://img.shields.io/badge/Git-222222?style=flat-square&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-222222?style=flat-square&logo=github&logoColor=FFFFFF)
-![VS Code](https://img.shields.io/badge/VS_Code-222222?style=flat-square&logo=visualstudiocode&logoColor=22A7F2)
-
-**En formación:** Java y SQL.
+**Backend:** Java · Spring Boot · Node.js · Express  
+**Datos:** PostgreSQL · SQL · Flyway  
+**Frontend:** HTML · CSS · JavaScript · EJS  
+**Herramientas:** Git · GitHub Actions · Maven · JUnit · VS Code
 
 ---
 
-### ✦ Proyecto destacado
+### 🎯 Ahora estoy trabajando en
 
-#### [VisagShop — tienda virtual de ropa](https://visagshop.onrender.com)
+- Una API REST con autenticación JWT, pruebas y Docker
+- Mejorando la documentación y las pruebas de mis proyectos
 
-Aplicación web para explorar un catálogo de ropa y preparar pedidos. Es el proyecto con el que he practicado desarrollo **full stack**, conexión con una base de datos y publicación de una aplicación web.
+### 📫 Contacto
 
-**¿Qué incluye?** Catálogo dinámico, búsqueda, carrito, selección de tallas, registro e inicio de sesión, perfil de usuario y administración de productos.
-
-**Tecnologías:** Node.js · Express · EJS · JavaScript · PostgreSQL · Neon · Render.
-
-[🌐 Ver la tienda en funcionamiento](https://visagshop.onrender.com) · [💻 Explorar el código](https://github.com/stiven-triana-dev/VisagShop)
-
-> **Nota:** VisagShop es un proyecto de desarrollo y aprendizaje. Las opciones de pago no procesan transacciones bancarias automáticamente.
-
----
-
-### 🎯 En qué estoy trabajando
-
-- Fortalecer mis conocimientos de desarrollo backend y bases de datos.
-- Aplicar buenas prácticas de organización, pruebas y documentación.
-- Construir nuevos proyectos para ampliar mi portafolio.
-
-### 📫 Contacto y proyectos
-
+- **LinkedIn:** [---]
+- **Correo:** [stivenxtriana.dev@gmail.com]
 - **GitHub:** [@stiven-triana-dev](https://github.com/stiven-triana-dev)
-- **Proyecto en línea:** [VisagShop](https://visagshop.onrender.com)
-
----
-
-<sub>Aprender · Construir · Mejorar.</sub>
