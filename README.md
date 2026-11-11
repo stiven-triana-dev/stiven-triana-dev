@@ -22,15 +22,19 @@ Aplicación web con tres espacios de trabajo (administración, docencia y estudi
 
 [💻 Ver el código](https://github.com/stiven-triana-dev/UniGest)
 
-#### 🛍️ [VisagShop — Tienda virtual de ropa](https://visagshop.onrender.com)
+#### 🛍️ [VisagShop — Tienda virtual de ropa urbana](https://visagshop.onrender.com)
 
-Tienda con catálogo dinámico, búsqueda, carrito, tallas, registro e inicio de sesión, perfil y administración de productos.
+Tienda en línea con 108 productos, buscador, carrito y cuentas de cliente. Cada pedido se guarda con un número antes de enviarse por WhatsApp, y un panel permite administrar productos y pedidos y exportarlos a Excel.
 
-**Tecnologías:** Node.js · Express · EJS · PostgreSQL · Render
+- **Base de datos:** PostgreSQL con Sequelize (12 tablas relacionadas) y migración de los datos de producción sin pérdidas
+- **Validación:** express-validator en el servidor y las mismas reglas en el navegador
+- **Calidad:** 28 pruebas automatizadas, incluidas pruebas contra PostgreSQL, y CI con GitHub Actions
+
+**Tecnologías:** Node.js · Express · EJS · PostgreSQL · Sequelize · Render
 
 [🌐 Ver la tienda](https://visagshop.onrender.com) · [💻 Ver el código](https://github.com/stiven-triana-dev/VisagShop)
 
-> VisagShop es un proyecto de aprendizaje: los pagos no procesan transacciones reales. La demo puede tardar unos segundos en cargar.
+> VisagShop no procesa pagos: los pedidos se confirman por WhatsApp. La demo puede tardar unos segundos en cargar.
 
 ---
 
