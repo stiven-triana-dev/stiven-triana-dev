@@ -4,6 +4,8 @@
 
 Busco mi primera oportunidad como desarrollador junior (backend / full stack). Me interesa construir aplicaciones completas, entender cómo se conectan el frontend, el backend y la base de datos, y escribir código que se pueda probar y mantener.
 
+🌐 **Portafolio:** [stiven-triana-dev.github.io](https://stiven-triana-dev.github.io)
+
 ---
 
 ### ✦ Proyectos 
@@ -48,6 +50,7 @@ Tienda con catálogo dinámico, búsqueda, carrito, tallas, registro e inicio de
 
 ### 📫 Contacto
 
+- **Portafolio:** [stiven-triana-dev.github.io](https://stiven-triana-dev.github.io)
 - **LinkedIn:** [linkedin.com/in/stiven-triana-dev](https://www.linkedin.com/in/stiven-triana-dev)
 - **Correo:** stivenxtriana.dev@gmail.com
 - **GitHub:** [@stiven-triana-dev](https://github.com/stiven-triana-dev)
