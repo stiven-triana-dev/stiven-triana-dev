@@ -10,17 +10,20 @@ Busco mi primera oportunidad como desarrollador junior (backend / full stack). M
 
 ### ✦ Proyectos 
 
-#### 🎓 [UniGest — Sistema de gestión académica](https://github.com/stiven-triana-dev/UniGest)
+#### 🎓 [UniGest — Sistema de gestión académica](https://unigest-d9zx.onrender.com)
 
 Aplicación web con tres espacios de trabajo (administración, docencia y estudiantes) para gestionar matrículas, grupos, evaluaciones, calificaciones y boletines.
 
 - **Seguridad:** Spring Security, roles, BCrypt y protección CSRF
-- **Calidad:** 92 pruebas automatizadas y CI con GitHub Actions
+- **Calidad:** 97 pruebas automatizadas y CI con GitHub Actions
+- **Demo en línea:** desplegada con Docker en Render, con cuentas de prueba para cada rol
 - **Base de datos:** PostgreSQL con migraciones Flyway
 
-**Tecnologías:** Java 21 · Spring Boot · Spring Data JPA · PostgreSQL · JUnit · Maven
+**Tecnologías:** Java 21 · Spring Boot · Spring Data JPA · PostgreSQL · JUnit · Maven · Docker
 
-[💻 Ver el código](https://github.com/stiven-triana-dev/UniGest)
+[🌐 Probar la demo](https://unigest-d9zx.onrender.com) · [💻 Ver el código](https://github.com/stiven-triana-dev/UniGest)
+
+> Demo con datos ficticios: entra como administración, docente o estudiante con un clic. Puede tardar cerca de un minuto en despertar.
 
 #### 🛍️ [VisagShop — Tienda virtual de ropa urbana](https://visagshop.onrender.com)
 
