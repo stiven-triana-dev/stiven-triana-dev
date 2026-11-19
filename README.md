@@ -1,59 +1,68 @@
 # ¡Hola! Soy Stiven 👋
 
-**Estudiante de Ingeniería de Sistemas** · San Gil, Colombia
+**Estudiante de Ingeniería de Sistemas** (6.º semestre, UNISANGIL) · San Gil, Colombia
 
-Busco mi primera oportunidad como desarrollador junior (backend / full stack). Me interesa construir aplicaciones completas, entender cómo se conectan el frontend, el backend y la base de datos, y escribir código que se pueda probar y mantener.
+Busco mi primera oportunidad como desarrollador junior, de backend, full stack o QA. Me gusta construir aplicaciones completas y publicarlas en línea, entender cómo se conectan el frontend, el backend y la base de datos, y escribir código con pruebas que otra persona pueda mantener. En los README de cada proyecto cuento lo que aprendí, lo que falló y cómo lo resolví.
 
 🌐 **Portafolio:** [stiven-triana-dev.github.io](https://stiven-triana-dev.github.io)
 
 ---
 
-### ✦ Proyectos 
+### ✦ Proyectos
 
 #### 🎓 [UniGest — Sistema de gestión académica](https://unigest-d9zx.onrender.com)
 
-Aplicación web con tres espacios de trabajo (administración, docencia y estudiantes) para gestionar matrículas, grupos, evaluaciones, calificaciones y boletines.
+Aplicación web con tres espacios (administración, docentes y estudiantes) para manejar matrículas, grupos, evaluaciones, calificaciones y boletines. Usa Spring Security con roles, BCrypt y CSRF; PostgreSQL con migraciones Flyway; 100 pruebas con JUnit, Mockito y MockMvc en GitHub Actions; y está publicada con Docker en Render, con la API documentada en Swagger.
 
-- **Seguridad:** Spring Security, roles, BCrypt y protección CSRF
-- **Calidad:** 97 pruebas automatizadas y CI con GitHub Actions
-- **Demo en línea:** desplegada con Docker en Render, con cuentas de prueba para cada rol
-- **Base de datos:** PostgreSQL con migraciones Flyway
-
-**Tecnologías:** Java 21 · Spring Boot · Spring Data JPA · PostgreSQL · JUnit · Maven · Docker
+**Java 21 · Spring Boot · Spring Data JPA · PostgreSQL · Flyway · JUnit · Docker**
 
 [🌐 Probar la demo](https://unigest-d9zx.onrender.com) · [💻 Ver el código](https://github.com/stiven-triana-dev/UniGest)
 
-> Demo con datos ficticios: entra como administración, docente o estudiante con un clic. Puede tardar cerca de un minuto en despertar.
-
 #### 🛍️ [VisagShop — Tienda virtual de ropa urbana](https://visagshop.onrender.com)
 
-Tienda en línea con 108 productos, buscador, carrito y cuentas de cliente. Cada pedido se guarda con un número antes de enviarse por WhatsApp, y un panel permite administrar productos y pedidos y exportarlos a Excel.
+Tienda en línea con 108 productos, buscador, carrito, cuentas de cliente y un panel para administrar productos y pedidos. Cada pedido queda guardado con un número antes de confirmarse por WhatsApp. Pasé los datos de producción de un esquema JSON a 12 tablas relacionadas sin perder nada, valido igual en el navegador y en el servidor, y tiene 38 pruebas (algunas contra PostgreSQL real), Prettier y ESLint en GitHub Actions.
 
-- **Base de datos:** PostgreSQL con Sequelize (12 tablas relacionadas) y migración de los datos de producción sin pérdidas
-- **Validación:** express-validator en el servidor y las mismas reglas en el navegador
-- **Calidad:** 28 pruebas automatizadas, incluidas pruebas contra PostgreSQL, y CI con GitHub Actions
-
-**Tecnologías:** Node.js · Express · EJS · PostgreSQL · Sequelize · Render
+**Node.js · Express · EJS · PostgreSQL · Sequelize · Render**
 
 [🌐 Ver la tienda](https://visagshop.onrender.com) · [💻 Ver el código](https://github.com/stiven-triana-dev/VisagShop)
 
-> VisagShop no procesa pagos: los pedidos se confirman por WhatsApp. La demo puede tardar unos segundos en cargar.
+#### 🤖 [VisagAssist — Asistente con IA para VisagShop](https://visagassist.onrender.com/docs)
+
+Servicio en Python que responde en español preguntas sobre la tienda con datos reales: productos, tallas, precios y, para cada cliente, sus propios pedidos. La IA nunca escribe SQL: solo elige entre siete herramientas de solo lectura que yo programé. Tiene identidad firmada con JWT, límites de uso, defensas contra *prompt injection*, 380 pruebas con pytest y una evaluación del agente con 42 casos. Funciona con Claude o Gemini y está integrado como chat en VisagShop.
+
+**Python · FastAPI · SQLAlchemy · PostgreSQL · APIs de Claude y Gemini · pytest · Docker**
+
+[🌐 Ver la API](https://visagassist.onrender.com/docs) · [💻 Ver el código](https://github.com/stiven-triana-dev/VisagAssist)
+
+#### 📊 [VisagData — Análisis de ventas](https://github.com/stiven-triana-dev/VisagData)
+
+Proceso de datos que parte de ventas de ejemplo con errores a propósito (ciudades mal escritas, métodos de pago repetidos) y termina en un tablero de Power BI. Limpio y modelo los datos con dbt en un modelo estrella, con 40 pruebas de calidad de datos (entre ellas, una que comprueba que las ventas cuadren), y GitHub Actions revisa que los archivos del tablero coincidan con el proceso.
+
+**Python · SQL · dbt · DuckDB · Power BI (DAX)**
+
+[💻 Ver el proyecto y el tablero](https://github.com/stiven-triana-dev/VisagData)
+
+> Las demos usan el plan gratuito de Render: la primera visita puede tardar cerca de un minuto mientras el servicio despierta.
 
 ---
 
 ### 🛠️ Tecnologías
 
-**Backend:** Java · Spring Boot · Node.js · Express  
-**Datos:** PostgreSQL · SQL · Flyway  
-**Frontend:** HTML · CSS · JavaScript · EJS  
-**Herramientas:** Git · GitHub Actions · Maven · JUnit · VS Code
+**Backend:** Java · Spring Boot · Node.js · Express · Python · FastAPI  
+**Datos:** PostgreSQL · SQL · Flyway · Sequelize · SQLAlchemy · dbt · DuckDB · Power BI  
+**IA:** APIs de Claude y Gemini, tool use, evaluaciones de agentes  
+**Calidad:** JUnit · Mockito · pytest · node:test · ESLint · ruff · mypy · GitHub Actions  
+**Frontend y herramientas:** HTML · CSS · JavaScript · EJS · Git · Docker · Render · Neon
+
+**Idiomas:** español nativo · inglés B1 (en formación)
 
 ---
 
-### 🎯 Ahora estoy trabajando en
+### 🎯 Ahora estoy
 
-- Una API REST con autenticación JWT, pruebas y Docker
-- Mejorando la documentación y las pruebas de mis proyectos
+- Buscando mi primera oportunidad como desarrollador junior o en QA (remoto o híbrido).
+- Mejorando mis proyectos con lo que aprendo: pruebas, documentación y despliegue.
+- Practicando inglés.
 
 ### 📫 Contacto
 
